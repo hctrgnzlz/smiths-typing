@@ -2,3 +2,12 @@
 .cursor {
     background-color: yellow;
 }
+
+.correct {
+    color:lightcyan;
+}
+
+#typing {
+    margin: 0 auto;
+    width: 300px;
+}
