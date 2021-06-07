@@ -12,5 +12,9 @@ const characters = text.split('').map((char) => {
 });
 
 const firstCharacter = characters [0];
-firstCharacter.classList.add('bg')
+firstCharacter.classList.add('cursor');
 
+
+document.addEventListener('keydown', ({key}) => {
+    console.log (key);
+})
