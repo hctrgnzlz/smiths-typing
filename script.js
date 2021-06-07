@@ -1,6 +1,6 @@
 const typingDiv = document.getElementById('typing');
 
-const text = 'I am the son and the heir of a shyness that is criminally vulgar. I am the son and heir of nothing in particular'
+const text = 'You shut your mouth. How can you say I go about things the wrong way?'
 
 const characters = text.split('').map((char) => {
 
@@ -14,9 +14,15 @@ let cursorIndex = 0;
 let cursorCharacter = characters [0];
 cursorCharacter.classList.add('cursor');
 
+let startTime = null;
+let endTime = null;
 
-document.addEventListener('keydown', ({key}) => {
+const keyListener = document.addEventListener('keydown', ({key}) => {
     console.log (key);
+    if (!startTime) {
+        startTime = new Date ();
+    }
+    
     if (key === cursorCharacter.innerText) {
         //correct key is typed
         cursorCharacter.classList.remove('cursor');
@@ -25,6 +31,19 @@ document.addEventListener('keydown', ({key}) => {
         //increment cursorIndex to move on to next letter
         cursorCharacter = characters[++cursorIndex];
         //add cursor class again to keep track of new letter
-        cursorCharacter.classList.add('cursor');
     }
+    if (cursorIndex >= characters.length) {
+        const endTime = new Date();
+        const delta = endTime - startTime;
+        const seconds = delta / 1000;
+        const numberOfWords = text.split(" ").length;
+        const wps = numberOfWords / seconds;
+        const wpm = wps * 60.0;
+        //display words/characters per minute.
+        document.getElementById("stats").innerText = `wpm = ${parseInt(wpm)}`;
+        document.removeEventListener('keydown', keyListener);
+        return;
+    }
+    cursorCharacter.classList.add('cursor');
+
 });
