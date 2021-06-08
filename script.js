@@ -36,6 +36,8 @@ const pharagraphs = [
     statsDiv.innerHTML = "";
     //get random paragraph from array
     const text = pharagraphs[parseInt(Math.random() * pharagraphs.length)];
+    //prevents space bar from triggering button
+    document.getElementById('start-game').blur();
   
     const characters = text.split("").map((char) => {
       const span = document.createElement("span");
