@@ -20,7 +20,7 @@ const pharagraphs = [
     `I would go out tonight, but I haven't got a stitch to wear. This man said, "It's gruesome that someone so handsome should care".`,
     `Driving in your car I never, never want to go home. Because I haven't got one, anymore.`,
     `There were times when I could have strangled her. But you know, I would hate anything to happen to her.`,
-    `I am the son and the heir of a shyness that is criminally vulgar. I am the son and heir of the nothing in particular.`,
+    `I am the son and the heir of a shyness that is criminally vulgar. I am the son and heir of nothing in particular.`,
     `I wish I could laugh but that joke isn't funny more, it's too close to home and it's too near the bone more than you'll ever know.`,
     `I'm not sure what happiness means, but I look in your eyes and I know that it isn't there.`,
 
