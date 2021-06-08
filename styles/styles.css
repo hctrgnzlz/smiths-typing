@@ -2,17 +2,19 @@ body {
   background-image: url(/assets/pattern.png);
 }
 
-
-.cursor {
-  background-color: yellow;
-}
-
-.correct {
-  color: grey;
-}
-
-#typing {
+.wrapper {
+  border: solid yellow 3px;
   margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper .cursor {
+  background-color: red;
+}
+
+.wrapper #typing {
+  margin: 0 auto;
+  width: 300px;
   width: 500px;
   height: 500px;
   border: solid red 3px;
@@ -20,15 +22,7 @@ body {
   background-size: cover;
 }
 
-#stats {
-  margin: 0 auto;
-  width: 300px;
+.wrapper #stats {
+  border: solid blue 3px;
 }
-
-.hidden {
-  display: none;
-}
-
-#start-game {
-  margin: 0 auto
-}
+/*# sourceMappingURL=styles.css.map */

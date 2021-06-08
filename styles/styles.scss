@@ -1,3 +1,27 @@
 body {
-    background-color: yellow;
+    background-image: url(/assets/pattern.png);
+}
+
+.wrapper {
+    border: solid yellow 3px;
+    margin: 0 auto;
+    text-align: center;
+
+    .cursor {
+        background-color: red;
+    }
+
+    #typing {
+        margin: 0 auto;
+        width: 300px;
+        width: 500px;
+        height: 500px;
+        border: solid red 3px;
+        background-image: url(/assets/sunflower.png);
+        background-size: cover;
+    }
+
+    #stats {
+        border: solid blue 3px;
+    }
 }
