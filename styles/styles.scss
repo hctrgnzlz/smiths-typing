@@ -19,9 +19,15 @@ body {
         border: solid red 3px;
         background-image: url(/assets/sunflower.png);
         background-size: cover;
+        font-family: 'Playfair Display', serif;
     }
 
     #stats {
         border: solid blue 3px;
+        opacity:0;
+        -webkit-transition: opacity 2s;
+        -moz-transition: opacity 2s;
+        -o-transition: opacity 2s;
+        transition: opacity 2s;
     }
 }

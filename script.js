@@ -1,3 +1,4 @@
+
 const typingDiv = document.getElementById('typing');
 const statsDiv = document.getElementById('stats');
 const startGameBtn = document.getElementById("start-game");
@@ -71,7 +72,8 @@ const pharagraphs = [
         const numberOfWords = text.split(" ").length;
         const wps = numberOfWords / seconds;
         const wpm = wps * 60.0;
-        document.getElementById("stats").innerText = `wpm = ${parseInt(wpm)}`;
+        document.getElementById("stats").innerText = `${parseInt(wpm)} words per minute.`;
+        document.getElementById("stats").style.opacity = 1;
         document.removeEventListener("keydown", keydown);
         //display button when game ends
         startGameBtn.classList.remove("hidden");
