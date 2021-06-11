@@ -3,28 +3,56 @@ body {
 }
 
 .wrapper {
-  border: solid yellow 3px;
   margin: 0 auto;
   text-align: center;
 }
 
-.wrapper .cursor {
-  background-color: red;
+.wrapper .title {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.wrapper #typing {
-  margin: 0 auto;
-  width: 300px;
-  width: 500px;
-  height: 500px;
-  border: solid red 3px;
+.wrapper .cursor {
+  background-color: #c0ffc8;
+  padding: 0.1em 0.2em;
+}
+
+.wrapper .correct {
+  color: grey;
+}
+
+.wrapper .container {
   background-image: url(/assets/sunflower.png);
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+}
+
+.wrapper .container #typing {
   font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  color: #FF0064;
 }
 
 .wrapper #stats {
-  border: solid blue 3px;
   opacity: 0;
   -webkit-transition: opacity 2s;
   transition: opacity 2s;

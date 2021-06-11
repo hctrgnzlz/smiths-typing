@@ -3,27 +3,46 @@ body {
 }
 
 .wrapper {
-    border: solid yellow 3px;
     margin: 0 auto;
     text-align: center;
 
-    .cursor {
-        background-color: red;
+    .title {
+        font-family: 'Bodoni Moda', serif;
+        font-size: 50px;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
     }
 
-    #typing {
-        margin: 0 auto;
-        width: 300px;
-        width: 500px;
-        height: 500px;
-        border: solid red 3px;
+    .cursor {
+        background-color: #c0ffc8;
+        padding:0.1em 0.2em;
+        
+    }
+
+    .correct {
+        color: grey;
+    }
+    
+    .container {
         background-image: url(/assets/sunflower.png);
         background-size: cover;
-        font-family: 'Playfair Display', serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+       
+        #typing {
+            font-family: 'Playfair Display', serif;
+            font-size: 40px;
+            color: #FF0064;
+        }
     }
 
+
     #stats {
-        border: solid blue 3px;
         opacity:0;
         -webkit-transition: opacity 2s;
         -moz-transition: opacity 2s;
