@@ -1,5 +1,5 @@
 body {
-    background-image: url(/assets/pattern2.png);
+    background-image: url(../assets/pattern2.png);
 }
 
 .wrapper {
@@ -25,7 +25,7 @@ body {
     }
     
     .container {
-        background-image: url(/assets/flower2.png);
+        background-image: url(../assets/flower2.png);
         background-size: cover;
         display: flex;
         justify-content: center;
