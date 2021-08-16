@@ -1,5 +1,5 @@
 body {
-    background-image: url(/assets/pattern.png);
+    background-image: url(/assets/pattern2.png);
 }
 
 .wrapper {
@@ -25,7 +25,7 @@ body {
     }
     
     .container {
-        background-image: url(/assets/sunflower.png);
+        background-image: url(/assets/flower2.png);
         background-size: cover;
         display: flex;
         justify-content: center;
@@ -37,7 +37,7 @@ body {
         #typing {
             font-family: 'Playfair Display', serif;
             font-size: 40px;
-            color: #FF0064;
+            color: black;
         }
     }
 
@@ -48,5 +48,6 @@ body {
         -moz-transition: opacity 2s;
         -o-transition: opacity 2s;
         transition: opacity 2s;
+        font-size: 40px;
     }
 }

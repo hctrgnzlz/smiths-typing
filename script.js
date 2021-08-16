@@ -18,7 +18,7 @@ const pharagraphs = [
     `I decree today that life is simply taking and not giving. England is mine, it owes me a living.`,
     `Last night I dreamt that somebody loved me. No hope but no harm, just another false alarm.`,
     `You shut your mouth. How can you say I go about things the wrong way?`,
-    `I would go out tonight, but I haven't got a stitch to wear. This man said, "It's gruesome that someone so handsome should care".`,
+    `I would go out tonight, but I haven't got a stitch to wear.`,
     `Driving in your car I never, never want to go home. Because I haven't got one, anymore.`,
     `There were times when I could have strangled her. But you know, I would hate anything to happen to her.`,
     `I am the son and the heir of a shyness that is criminally vulgar. I am the son and heir of nothing in particular.`,

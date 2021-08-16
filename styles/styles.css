@@ -1,5 +1,5 @@
 body {
-  background-image: url(/assets/pattern.png);
+  background-image: url(/assets/pattern2.png);
 }
 
 .wrapper {
@@ -30,7 +30,7 @@ body {
 }
 
 .wrapper .container {
-  background-image: url(/assets/sunflower.png);
+  background-image: url(/assets/flower2.png);
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -49,12 +49,13 @@ body {
 .wrapper .container #typing {
   font-family: 'Playfair Display', serif;
   font-size: 40px;
-  color: #FF0064;
+  color: black;
 }
 
 .wrapper #stats {
   opacity: 0;
   -webkit-transition: opacity 2s;
   transition: opacity 2s;
+  font-size: 40px;
 }
 /*# sourceMappingURL=styles.css.map */
