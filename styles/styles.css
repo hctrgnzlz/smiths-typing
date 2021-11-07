@@ -1,5 +1,23 @@
 body {
   background-image: url(../assets/pattern2.png);
+  font-family: 'Bodoni Moda', serif;
+}
+
+button {
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-family: 'Bodoni Moda', serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+button:hover {
+  background-image: url(../assets/pattern.png);
+  color: white;
 }
 
 .nav .toggle {
@@ -73,8 +91,7 @@ body {
 }
 
 .wrapper .title {
-  font-family: 'Bodoni Moda', serif;
-  font-size: 50px;
+  font-size: 60px;
   text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,16 +100,17 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: yellow;
+  color: black;
+  background-image: url(../assets/pattern.png);
 }
 
 .wrapper .cursor {
-  background-color: #c0ffc8;
+  background-image: url(../assets/pattern.png);
   padding: 0.1em 0.2em;
 }
 
 .wrapper .correct {
-  color: grey;
+  color: white;
 }
 
 .wrapper .container {
@@ -110,6 +128,7 @@ body {
   margin: 0 auto;
   width: 500px;
   height: 500px;
+  margin-top: 40px;
 }
 
 .wrapper .container #typing {
@@ -122,10 +141,28 @@ body {
   opacity: 0;
   -webkit-transition: opacity 2s;
   transition: opacity 2s;
-  font-size: 40px;
+  text-transform: uppercase;
+  font-size: 60px;
+  background-image: url(../assets/pattern.png);
 }
 
-.morrissey {
+.flex {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#morrissey {
   border: solid green 2px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 /*# sourceMappingURL=styles.css.map */

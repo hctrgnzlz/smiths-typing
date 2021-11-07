@@ -10,7 +10,6 @@ const pharagraphs = [
     `In my life, why do I smile at people who I’d much rather kick in the eye?`,
     `I was looking for a job, and then I found a job and heaven knows I'm miserable now.`,
     `I want to live and I want to love. I want to catch something that I might be ashamed of.`,
-    `With loves, and hates and passions just like mine. They were born, and then they lived, and then they died. It seems so unfair, I want to cry.`,
     `What she asked of me at the end of the day Caligula would have blushed.`,
     `Love is natural and real but not for such as you and I, my love.`,
     `Belligerent ghouls run Manchester schools. Spineless swines, cemented minds.`,
@@ -21,7 +20,6 @@ const pharagraphs = [
     `I would go out tonight, but I haven't got a stitch to wear.`,
     `Driving in your car I never, never want to go home. Because I haven't got one, anymore.`,
     `There were times when I could have strangled her. But you know, I would hate anything to happen to her.`,
-    `I am the son and the heir of a shyness that is criminally vulgar. I am the son and heir of nothing in particular.`,
     `I wish I could laugh but that joke isn't funny more, it's too close to home and it's too near the bone more than you'll ever know.`,
     `I'm not sure what happiness means, but I look in your eyes and I know that it isn't there.`,
 

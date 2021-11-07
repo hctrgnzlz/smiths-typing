@@ -8,12 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,700;1,700&family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
-    <title>The Smiths typing game</title>
+    <title>The Smiths typing game </title>
     <link rel="stylesheet" href="./styles/styles.css" />
 </head>
 
 <body>
-
     <div class="wrapper">
         <div class="nav">
             <div class="toggle">
@@ -21,23 +20,24 @@
                 <span aria-label="navigation bar"><i class="fas fa-plus-circle"></i> </span>
 
                 <ul id="list"class="list">
-                 
-
-                    <img id="morrissey" src="./assets/morrissey.png" alt="">
+                    
                     <p>Smiths Typing Game</p>
-                  </li>
+                    <img id="morrissey" src="./assets/morrissey.png" alt="">
                 </ul>
-              </div>
             </div>
-
-        <div class="title">
-            <span>The Smiths Typing Game.</span>
         </div>
-        <div class="container">
+        <div class="flex">
+            <div class="title">
+                <span>The Smiths Typing Game</span>
+            </div>
+            <div class="container">
             <div id="typing"></div>
+            </div>
+            <div id="stats"></div>
+            <button id="start-game" onclick="startGame();">Start</button>     
         </div>
-        <div id="stats"></div>
-        <button id="start-game" onclick="startGame();">Start</button>     
+
+
     </div>
     <script src="https://kit.fontawesome.com/d15c03b01c.js" crossorigin="anonymous"></script>
 
