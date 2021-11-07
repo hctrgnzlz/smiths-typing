@@ -55,10 +55,18 @@ button:hover {
         font-size: 3rem;
       }
 
+      & i:hover {
+        color: white;
+      }
+
       & input:checked ~ ul {
         transform: none;
         left: 0;
       }
+    }
+
+    .title {
+      background-image: url(../assets/pattern2.png);
     }
 
     .list {
@@ -144,15 +152,45 @@ button:hover {
 }
 
 
+.info {
+  max-width: 800px;
+  
+  
 
-#morrissey {
-    border: solid green 2px;
-    filter: grayscale(100%);
+  h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 60px;
+  }
+
+  p {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 
 
 
+#morrissey {
+    filter: grayscale(100%);
+    align-self: center;
+  
+}
 
 
 
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  
+  & img {
+    width: 50px;
+    transition: all 0.3s;
+  }
 
+  & img:hover {
+    transform: scale(1.3);
+  }
+
+}
